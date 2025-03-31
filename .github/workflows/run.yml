@@ -33,7 +33,7 @@ jobs:
         uses: nick-fields/retry@master
         with:
           timeout_minutes: 10
-          max_attempts: 3
+          max_attempts: 5
           command: npm start
       # - name: Keep Running
       #   run: |
